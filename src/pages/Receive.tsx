@@ -43,7 +43,7 @@ export default function Receive() {
                   <img src={`/chains/${chain.icon}`} className="chains-list__img" alt="chain icon" />
                   <div className="chains-list__block">
                     <span className="chains-list__title">{chain.viemChain.name}</span>
-                    <span className="chains-list__subtitle">{formatAddress(address, 10)}</span>
+                    <span className="chains-list__subtitle">{formatAddress(address, 11)}</span>
                   </div>
                   <button className="btn btn--icon" onClick={() => copyAddress(address)}>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none">

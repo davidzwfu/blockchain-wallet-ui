@@ -13,5 +13,5 @@ export function formatPercent(value: string) {
 }
 
 export function formatAddress(address: string, length: number = 10) {
-  return `${address.slice(0, length + 2)}...${address.slice(-length)}`
+  return `${address.slice(0, length)}...${address.slice(-length)}`
 }

@@ -9,6 +9,8 @@ import Export from './pages/Export.tsx'
 import ChangePassword from './pages/ChangePassword.tsx'
 import ForgotPassword from './pages/ForgotPassword.tsx'
 import SendTransaction from './pages/SendTransaction.tsx'
+import SignMessage from './pages/SignMessage.tsx'
+import SignTyped from './pages/SignTyped.tsx'
 import Receive from './pages/Receive.tsx'
 import Start from './pages/Start.tsx'
 import StartNew from './pages/StartNew.tsx'
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
       {
         path: 'send-transaction',
         element: <SendTransaction />,
+      },
+      {
+        path: 'sign-message',
+        element: <SignMessage />,
+      },
+      {
+        path: 'sign-typed',
+        element: <SignTyped />,
       },
       {
         path: 'receive',
