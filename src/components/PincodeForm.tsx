@@ -19,6 +19,7 @@ export default function PincodeForm({
   }, [pincode])
 
   function handleKeyDown(event: KeyboardEvent) {
+    console.log(event)
     setError('')
     if (event.key == 'Backspace')
       setPincode(pincode.slice(0, -1))
