@@ -417,6 +417,7 @@ input[type=number] {
 }
 
 .pincode {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -424,6 +425,12 @@ input[type=number] {
 
 .pincode__wrapper {
   align-self: center;
+}
+
+.pincode__master {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
 }
 
 .pincode__input {
@@ -444,7 +451,7 @@ input[type=number] {
   caret-color: transparent;
 }
 
-.pincode__input:focus {
+.pincode:focus-within .pincode__input.focus {
   outline: 2px solid #9E77ED;
   outline-offset: 2px;
 }
