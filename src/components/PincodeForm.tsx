@@ -39,18 +39,18 @@ export default function PincodeForm({
     <form className="container1__form" ref={formRef} onSubmit={(e) => onSubmit(e)} onBlur={() => controlFocus()}>
       <div className="pincode__wrapper">
         <div className="pincode">
-          <input type="text" className="pincode__input" maxLength={1} placeholder=" " readOnly
-            value={pincode[0] ?? ''} onPaste={(e) => handlePaste(e)} />
-          <input type="text" className="pincode__input" maxLength={1} placeholder=" " readOnly
-            value={pincode[1] ?? ''} onPaste={(e) => handlePaste(e)} />
-          <input type="text" className="pincode__input" maxLength={1} placeholder=" " readOnly
-            value={pincode[2] ?? ''} onPaste={(e) => handlePaste(e)} />
-          <input type="text" className="pincode__input" maxLength={1} placeholder=" " readOnly
-            value={pincode[3] ?? ''} onPaste={(e) => handlePaste(e)} />
-          <input type="text" className="pincode__input" maxLength={1} placeholder=" " readOnly
-            value={pincode[4] ?? ''} onPaste={(e) => handlePaste(e)} />
-          <input type="text" className="pincode__input" maxLength={1} placeholder=" " readOnly
-            value={pincode[5] ?? ''} onPaste={(e) => handlePaste(e)} />
+          <input type="text" className="pincode__input" maxLength={1} placeholder=" " 
+            value={pincode[0] ?? ''} onPaste={(e) => handlePaste(e)} onChange={() => null} />
+          <input type="text" className="pincode__input" maxLength={1} placeholder=" " 
+            value={pincode[1] ?? ''} onPaste={(e) => handlePaste(e)} onChange={() => null} />
+          <input type="text" className="pincode__input" maxLength={1} placeholder=" " 
+            value={pincode[2] ?? ''} onPaste={(e) => handlePaste(e)} onChange={() => null} />
+          <input type="text" className="pincode__input" maxLength={1} placeholder=" " 
+            value={pincode[3] ?? ''} onPaste={(e) => handlePaste(e)} onChange={() => null} />
+          <input type="text" className="pincode__input" maxLength={1} placeholder=" "
+            value={pincode[4] ?? ''} onPaste={(e) => handlePaste(e)} onChange={() => null} />
+          <input type="text" className="pincode__input" maxLength={1} placeholder=" " 
+            value={pincode[5] ?? ''} onPaste={(e) => handlePaste(e)} onChange={() => null} />
         </div>
         <div className="container1__hint container1__hint--error">{error}</div>
       </div>
