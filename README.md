@@ -9,7 +9,7 @@ Supports the following Ethereum chains:
 - Avalanche
 - Fantom
 
-- ### Live demo
+### Live demo
 
 https://blockchain-wallet-2d490914f611.herokuapp.com/
 
