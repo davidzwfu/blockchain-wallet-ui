@@ -912,6 +912,7 @@ input[type=number] {
   .app {
     max-width: none;
     height: 100%;
+    min-height: 612px;
     margin: auto;
   }
 }
