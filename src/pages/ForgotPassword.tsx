@@ -19,6 +19,7 @@ export default function ForgotPassword() {
 
   function handleMnemonic(event: React.FormEvent) {
     event.preventDefault()
+    if (!mnemonic.length) return
     setError('')
 
     try {
@@ -35,6 +36,7 @@ export default function ForgotPassword() {
 
   function handlePassword(event: React.FormEvent) {
     event.preventDefault()
+    if (pincode.length < 6) return
     setError('')
 
     try {
