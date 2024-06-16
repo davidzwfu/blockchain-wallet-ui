@@ -1,0 +1,42 @@
+{
+  "name": "blockchain-wallet-ui",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "David Fu <davidzwfu@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "crypto-js": "^4.2.0",
+    "jotai": "^2.8.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.1",
+    "sort-by": "^1.2.0",
+    "swr": "^2.2.5",
+    "viem": "^2.10.9"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@types/react-modal": "^3.16.3",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

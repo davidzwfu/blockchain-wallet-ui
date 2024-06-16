@@ -1,0 +1,38 @@
+.start__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #94969C;
+  margin: 24px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.start__divider::before,
+.start__divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #1F242F;
+}
+
+.start__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.start__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
+
+.start-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
