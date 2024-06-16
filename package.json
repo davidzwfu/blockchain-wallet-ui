@@ -21,6 +21,7 @@
     "react-hot-toast": "^2.4.1",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.23.1",
+    "serve": "^14.2.3",
     "sort-by": "^1.2.0",
     "swr": "^2.2.5",
     "viem": "^2.10.9"

@@ -1,0 +1,1 @@
+web: npx serve -p $PORT -s dist
