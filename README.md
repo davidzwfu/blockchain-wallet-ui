@@ -9,13 +9,13 @@ Supports the following Ethereum chains:
 - Avalanche
 - Fantom
 
+- ### Live demo
+
+https://blockchain-wallet-2d490914f611.herokuapp.com/
+
 ### Security
 
 The user's wallet is encrypted using the provided pincode and kept in the browser's local storage. When unlocked, the wallet is temporarily decrypted into memory.
-
-### Live demo
-
-https://blockchain-wallet-2d490914f611.herokuapp.com/
 
 ### Screenshots
 
