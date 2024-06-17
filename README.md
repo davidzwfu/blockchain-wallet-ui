@@ -19,8 +19,10 @@ The user's wallet is encrypted using the provided pincode and kept in the browse
 
 ### Screenshots
 
-![Screenshot 2024-05-19 013532](https://github.com/davidzwfu/blockchain-wallet-ui/assets/69821833/31608687-6b41-4d83-a1d7-6bd563712f65)
-![Screenshot 2024-05-19 211153](https://github.com/davidzwfu/blockchain-wallet-ui/assets/69821833/87b0166e-12ee-462d-8d0b-5a63e391b659)
+![Screenshot 2024-06-16 223703](https://github.com/davidzwfu/blockchain-wallet-ui/assets/69821833/db650a4d-3c4a-4fc3-8f13-1db1965451d5)
+![Screenshot 2024-06-16 223639](https://github.com/davidzwfu/blockchain-wallet-ui/assets/69821833/8c8a512c-068c-4cfc-a411-2dee0b0e98d1)
+![Screenshot 2024-06-16 223810](https://github.com/davidzwfu/blockchain-wallet-ui/assets/69821833/a8aa91cc-6da2-4d25-b579-db2fef3f166b)
+![Screenshot 2024-06-16 223621](https://github.com/davidzwfu/blockchain-wallet-ui/assets/69821833/2a03ea6f-e4b0-46a0-b727-d39bb2ffda11)
 
 ## Tools used
 
