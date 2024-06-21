@@ -11,7 +11,7 @@ Supports the following Ethereum chains:
 
 ### Live demo
 
-https://blockchain-wallet-2d490914f611.herokuapp.com/
+https://blockchain-wallet-six.vercel.app
 
 ### Security
 
