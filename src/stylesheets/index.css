@@ -8,6 +8,7 @@
 * {
   font-family: Inter, sans-serif;
   margin: 0;
+  scrollbar-width: thin;
 }
 
 body {
@@ -27,15 +28,6 @@ button {
   background: none;
   padding: 0;
   cursor: pointer;
-}
-
-textarea {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-textarea ::-webkit-scrollbar {
-  display: none;
 }
 
 input::-webkit-outer-spin-button,
@@ -99,9 +91,6 @@ input[type=number] {
 .nav-btn {
   position: relative;
   margin-left: auto;
-}
-
-.nav-btn__content {
   color: #CECFD2;
   display: flex;
   padding: 8px;
@@ -109,14 +98,14 @@ input[type=number] {
   transition: .2s linear;
 }
 
-.nav-btn__content:hover {
+.nav-btn:hover {
   background-color: #1F242F;
   color: #ECECED;
 }
 
-.focusable {
+.clickable {
   position: absolute;
-  inset: 0;
+  inset: -1px;
 }
 
 .checkbox {
@@ -357,7 +346,6 @@ input[type=number] {
 
 .btn--icon {
   padding: 9px;
-  color: #94969C;
 }
 
 .btn--borderless {
@@ -372,6 +360,11 @@ input[type=number] {
   content: '';
   position: absolute;
   inset: -10px;
+}
+
+.btn__clickable {
+  position: absolute;
+  inset: -1px;
 }
 
 .change-percent {
@@ -498,6 +491,7 @@ input[type=number] {
 .form-field__input:focus,
 .input-dropdown:focus-within .form-field__input {
   outline: 2px solid #B692F6;
+  outline-offset: -1px;
 }
 
 .form-field__subtext {
@@ -539,20 +533,8 @@ input[type=number] {
     0px 4px 6px -2px rgba(16, 24, 40, 0.03);
   padding: 4px 0;
   z-index: 1;
-  visibility: hidden;
   overflow: auto;
   max-height: 335px;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.input-dropdown__menu ::-webkit-scrollbar {
-  display: none;
-}
-
-.input-dropdown__menu:active,
-:focus-within>.input-dropdown__menu {
-  visibility: visible;
 }
 
 .input-dropdown__item {
@@ -584,6 +566,7 @@ input[type=number] {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-align: left;
 }
 
 .input-dropdown__check {
@@ -605,8 +588,9 @@ input[type=number] {
   box-shadow: 0px 1px 2px 0px rgb(16, 24, 40, 0.05);
 }
 
-.input-dropdown:focus-within .input-dropdown__input {
+.input-dropdown.active .input-dropdown__input {
   outline: 2px solid #B692F6;
+  outline-offset: -1px;
 }
 
 .input-dropdown__btn {
@@ -646,7 +630,7 @@ input[type=number] {
     0px 4px 6px -2px rgba(16, 24, 40, 0.03);
 }
 
-.dropdown-menu--long {
+.nav-btn .dropdown-menu {
   width: 240px;
 }
 
