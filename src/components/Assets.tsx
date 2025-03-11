@@ -48,7 +48,7 @@ export default function Assets() {
         </div>
       </div>
       <div className="assets-grid">
-        {assets.map(id => {
+        {assets?.map(id => {
           const chain = chains[id]
           const price = priceData[id]
           const balance = parseFloat(balances[id] ?? 0)

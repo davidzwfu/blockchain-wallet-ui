@@ -22,7 +22,7 @@ export default function Watchlist() {
         </button>
       </div>
       <div className="watchlist-grid">
-        {watchlist.map(id => {
+        {watchlist?.map(id => {
           const chain = chains[id]
           const price = priceData[id]
           return (
