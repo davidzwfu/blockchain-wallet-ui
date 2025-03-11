@@ -10,7 +10,7 @@ export function usePriceData() {
   )
   if (!data) return {}
   
-  return data?.data.reduce((total: any, current: any) => {
+  return data?.data?.reduce((total: any, current: any) => {
     total[current.id] = current
     return total
   }, {})

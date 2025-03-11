@@ -16,8 +16,8 @@ export default function PriceGraph({ chain }: { chain: Chain }) {
   if (!data)
     return
   
-  const dateLabels = data.data.map((x: any) => x.date)
-  const priceData = data.data.map((x: any) => x.priceUsd)
+  const dateLabels = data?.data?.map((x: any) => x.date)
+  const priceData = data?.data?.map((x: any) => x.priceUsd)
   return (
     <Line
       options={{
