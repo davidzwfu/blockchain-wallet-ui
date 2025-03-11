@@ -1,6 +1,6 @@
 # Blockchain Wallet UI
 
-A minimal blockchain wallet that supports sending/receiving assets. (Built with React and Vite)
+A non-custodial blockchain wallet that supports sending/receiving assets. (Built with React and Vite)
 
 Supports the following Ethereum chains:
 - Ethereum
