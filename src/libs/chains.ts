@@ -4,7 +4,7 @@ import {
   polygon,
   avalanche,
   bsc,
-  fantom,
+  // fantom,
 } from 'viem/chains'
 
 export type Chain = {
@@ -39,10 +39,10 @@ export const chains: Record<string, Chain> = {
     color: '#e84142',
     viemChain: avalanche,
   },
-  fantom: {
-    id: 'fantom',
-    icon: 'fantom.svg',
-    color: '#1969ff',
-    viemChain: fantom,
-  },
+  // fantom: {
+  //   id: 'fantom',
+  //   icon: 'fantom.svg',
+  //   color: '#1969ff',
+  //   viemChain: fantom,
+  // },
 }

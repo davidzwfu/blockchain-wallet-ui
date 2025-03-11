@@ -7,7 +7,6 @@ Supports the following Ethereum chains:
 - Polygon
 - BNB Chain
 - Avalanche
-- Fantom
 
 ### Live demo
 
