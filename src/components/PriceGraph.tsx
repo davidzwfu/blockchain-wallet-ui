@@ -10,7 +10,7 @@ export default function PriceGraph({ chain }: { chain: Chain }) {
   const start = end - (24 * 60 * 60 * 1000)
   
   const { data } = useSWR(
-    `https://rest.coincap.io/v3/assets/${chain.id}/history?interval=h1&start=${start}&end=${end}&apiKey=02a2068bea0c40706cb909555c0794381a934777993f14115b9e8da7073902a2`, 
+    `https://rest.coincap.io/v3/assets/${chain.id}/history?interval=h1&start=${start}&end=${end}&apiKey=${process.env.COINCAP_API_KEY}`, 
     fetcher,
   )
   if (!data || !Array.isArray(data.data))
