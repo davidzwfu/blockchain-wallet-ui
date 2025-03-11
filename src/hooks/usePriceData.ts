@@ -4,7 +4,7 @@ import { fetcher } from '../libs/utils'
 
 export function usePriceData() {
   const { data } = useSWR(
-    `https://rest.coincap.io/v3/assets?ids=${Object.keys(chains).join(',')}&apiKey=${process.env.COINCAP_API_KEY}`, 
+    `https://rest.coincap.io/v3/assets?ids=${Object.keys(chains).join(',')}&apiKey=${import.meta.env.VITE_COINCAP_API_KEY}`, 
     fetcher,
     { refreshInterval: 60000 },
   )
